@@ -9,10 +9,13 @@ public class Author {
         this.name = surname;
     }
 
-    public String getAuthor() {
+    public String getName() {
         return this.name;
+    }
+    public String getSurname() {
         return this.surname;
     }
+
 
 
 }
