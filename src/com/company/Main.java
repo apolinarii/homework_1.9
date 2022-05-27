@@ -8,19 +8,15 @@ public class Main {
         System.out.println("book.get.author = " + book.getAuthor());
         System.out.println("book.get.year = " + book.getYear());
 
+        Author writer = new Author("Lev Nikolayevich Tolstoy");
+        Author writer1 = new Author("George Orwell");
+        Author writer2 = new Author("Vladimir Vladimirovich Nabokov");
+
         Book book1 = new Book("1984","Orwell", 1949 );
         Book book2 = new Book("Lolita","Nabokov", 1955 );
 
-
-        Author writer = new Author("Lev Nikolayevich Tolstoy");
-        Author writer1 = new Author("George Orwell");
-        Author write2 = new Author("Vladimir Vladimirovich Nabokov");
-
-
-
-
-
-
+        book.setYear(1950);
+        System.out.println("book.getYear() = " + book.getYear());
 
 
     }
