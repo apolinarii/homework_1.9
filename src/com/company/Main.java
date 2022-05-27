@@ -3,12 +3,13 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        Author writer = new Author("Lev Nikolayevich Tolstoy");
         Book book  = new Book("War and Peace", "Tolstoy", 1876);
         System.out.println("book.get.name = " + book.getName());
         System.out.println("book.get.author = " + book.getAuthor());
         System.out.println("book.get.year = " + book.getYear());
 
-        Author writer = new Author("Lev Nikolayevich Tolstoy");
+        
         Author writer1 = new Author("George Orwell");
         Author writer2 = new Author("Vladimir Vladimirovich Nabokov");
 
