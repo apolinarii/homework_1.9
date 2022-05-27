@@ -2,7 +2,7 @@ package com.company;
 
 public class Book {
     private String name;
-    private String author;
+    private String Author;
     private int year;
 
     public Book(String name, String author, int year) {
