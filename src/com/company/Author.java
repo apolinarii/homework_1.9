@@ -5,11 +5,13 @@ public class Author {
     private String surname;
 
     public Author(String name){
-        this.writer = name;
+        this.name = name;
+        this.name = surname;
     }
 
     public String getAuthor() {
-        return this.writer;
+        return this.name;
+        return this.surname;
     }
 
 
