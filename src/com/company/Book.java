@@ -2,12 +2,13 @@ package com.company;
 
 public class Book {
     private String name;
-    private String Author;
+    private Author author;
+
     private int year;
 
     public Book(String name, String Author, int year) {
         this.name = name;
-        this.Author = Author;
+        this.author = author;
         this.year = year;
     }
 
@@ -15,8 +16,8 @@ public class Book {
         return this.name;
     }
 
-    public String getAuthor() {
-        return this.Author;
+    public Author getAuthor() {
+        return this.author;
     }
 
     public int getYear() {
