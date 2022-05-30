@@ -4,10 +4,8 @@ public class Author {
     private String name;
     private String surname;
 
-    public Author(String name){
+    public Author(String name, surname){
         this.name = name;
-    }
-    public Author(String surname){
         this.name = surname;
     }
 
